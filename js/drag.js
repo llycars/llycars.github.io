@@ -1,4 +1,4 @@
-//由于在IE10之前的版本 没有getElementByClassName这个标签，所以得考虑兼容性的问题，就把这个标签封装起来
+﻿//由于在IE10之前的版本 没有getElementByClassName这个标签，所以得考虑兼容性的问题，就把这个标签封装起来
 function getByClass(clsName,parent){
   var oParent=parent?document.getElementById(parent):document,
   //当传过来的参数中有父元素parent时，获取这个父元素的ID名，若没有传过来父元素时，就是doument了
@@ -130,3 +130,4 @@ function fnMove(e,posX,posY){
   oDrag.style.left=l+'px';
   oDrag.style.top=t+'px';
 }
+alert("测试");
