@@ -122,7 +122,7 @@ function fnMove(e,posX,posY){
   }else if(l>maxW){
     l=maxW;
   }
-  if(t<0){
+  if(t<10){
     t=10;
   }else if(t>maxH){
     t=maxH;
@@ -130,4 +130,3 @@ function fnMove(e,posX,posY){
   oDrag.style.left=l+'px';
   oDrag.style.top=t+'px';
 }
-alert("测试");
